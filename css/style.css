@@ -78,7 +78,7 @@
 
 /* Banner-Section */
 .banner{
-  margin-top: 50px;
+  padding: 50px 0;
 }
 .banner-content{
   margin-top: 50px;
@@ -140,7 +140,7 @@
 
 /* Online-Games */
 .online-games{
-  margin-top: 100px;
+  padding: 50px 0;
 
 }
 .online-games-content{}
@@ -177,7 +177,7 @@
 /* play-Games */
 
 .play-games{
-  margin: 150px 0;
+  padding: 150px 0;
 }
 .play-games-content{
   display: flex;
@@ -209,6 +209,31 @@
   top: 60%;
   left: 70%;
 }
+
+/*------ Types of Game----- */
+
+
+.games-type{
+  padding: 100px 0;
+  background-color: rgb(244, 247, 250);
+}
+.type-one{
+  padding: 30px 0;
+}
+.type-one ul{
+  display: flex;
+  justify-content: center;
+}
+.type-two{}
+.type-two ul{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
 
 /* footer-Section */
 
