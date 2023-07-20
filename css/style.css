@@ -24,8 +24,9 @@
   }
 
   /* Header-Section */
+
   .header{
-   padding: 30px 0;
+   padding: 10px 0;
   }
   .container{
     width:80%;
@@ -69,16 +70,22 @@
     border: none;
     color: #3C354F;
     background-color: rgba(11, 2, 35, 0.10);
+    font-size: 16px;
+    font-weight: bold;
 }
 .menu ul span{
     color: red;
-    font-size: 20px;
-    margin: 0 20px;
-}
+    font-size: 30px;
+    padding: 10px;
+} 
+   
+
 
 /* Banner-Section */
+
 .banner{
-  padding: 50px 0;
+  padding-top: 20px;
+  background-color: rgba(246, 246, 246, 0.943);
 }
 .banner-content{
   margin-top: 50px;
@@ -95,7 +102,7 @@
 .banner-text h1{
   font-size: 95px;
   padding:20px 0;
-  background-image: linear-gradient(to bottom,red,blue);
+  background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.967),blue);
   color: transparent;
   -webkit-background-clip: text;
   
@@ -139,8 +146,9 @@
 }
 
 /* Online-Games */
+
 .online-games{
-  padding: 50px 0;
+  padding: 50px 0 0 0;
 
 }
 .online-games-content{}
@@ -202,6 +210,7 @@
 .pgc-text p{
   font-size: 15px;
   margin-top: 30px;
+  
 }
 .img-2{
   width: 50%;
@@ -215,7 +224,7 @@
 
 .games-type{
   padding: 100px 0;
-  background-color: rgb(244, 247, 250);
+  background-color: rgba(246, 246, 246, 0.943);
 }
 .game-content{
   display: flex;
@@ -225,16 +234,25 @@
  
 }
 .game-type{
-  width: 20%;
- display: flex;
- align-items: center;
- padding: 10px;
+  width: 18%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  
+ 
   
 }
-
-
-
-
+.game-type:hover.game-type{
+  border: 2px solid rgb(249, 123, 144);
+  border-radius: 50px;
+  
+  
+}
+.game-type:hover h5{
+  color: rgb(244, 72, 106);
+  
+}
 
 
 /* footer-Section */
@@ -264,20 +282,25 @@
 }
 .social-icon{
   margin-bottom: 50px;
+
+  
 }
 .social-icon ul{
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  
   
 }
 .social-icon a{
   padding: 0 25px;
   color: #fff;
+  font-size: 30px;
 }
+
 .footer-note{
   margin-bottom: 50px;
 }
+
 .footer-note ul{
   display: flex;
   justify-content: center;
@@ -291,6 +314,11 @@ h6{
   font-size: 14px;
   color: #fff;
 }
+
+
+
+
+
 /* --------------- */
 
 @media screen and (max-width:992px) {
@@ -316,10 +344,10 @@ h6{
   margin-bottom: 100px;
 }
 .game-type{
-  width: 40%;
+  width: 30%;
   
 }
-.footer-menu a, .footer-icon a,.footer-note li{
+.footer-menu a, .social-icon a,.footer-note li{
   padding: 0 5px;
 }
 
@@ -342,6 +370,11 @@ h6{
   }
   .ogc-img{
     width: 100%;
+  
+  }
+  .game-type{
+    width: 32%;
+    padding: 0;
   }
   .footer-menu ul, .footer-note ul{
     flex-wrap: wrap;
